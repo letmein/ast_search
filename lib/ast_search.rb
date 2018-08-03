@@ -1,3 +1,5 @@
+require "pry"
+
 require "ast_search/version"
 
 module AstSearch
