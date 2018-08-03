@@ -1,4 +1,5 @@
 require "pry"
+require "parser/current"
 
 require "ast_search/version"
 
