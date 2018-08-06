@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Yuriy Kharchenko"]
   spec.email         = ["rm1945@yandex.ru"]
 
-  spec.summary       = %q{Search for AST nodes by type}
-  spec.description   = %q{Search for AST nodes by type}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Parse Ruby code & search for AST nodes}
+  spec.description   = %q{Parse Ruby code & search for AST nodes}
+  spec.homepage      = "https://github.com/letmein/ast_search"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
