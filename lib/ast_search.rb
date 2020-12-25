@@ -21,4 +21,9 @@ module AstSearch
     ast = parse(src)
     AstSearch::Queries::ExternalClasses.new.call(ast)
   end
+
+  def self.find_class_definitions(src)
+    ast = parse(src)
+    AstSearch::Queries::ClassDefs.new.call(ast)
+  end
 end
